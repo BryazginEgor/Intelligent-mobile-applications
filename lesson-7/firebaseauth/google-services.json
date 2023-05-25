@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070992392261",
+    "project_id": "lesson7-d5d48",
+    "storage_bucket": "lesson7-d5d48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070992392261:android:e67a4938299595b4e1632c",
+        "android_client_info": {
+          "package_name": "ru.mirea.bryazgin.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD__zrj8rtOUjXvRaZk6JX2SJQhteTlyL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
