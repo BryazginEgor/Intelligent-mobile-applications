@@ -16,6 +16,6 @@ public class MyProgressDialogFragment extends DialogFragment {
         pd.setMessage("loading");
 
         return pd;
-        //   pd.show();
+
     }
 }

@@ -1,5 +1,7 @@
 package ru.mirea.bryazgin.Lesson2;
 
+
+
 import static android.content.ContentValues.TAG;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,10 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.EditText;
-
-//1 вопрос - нет
-//2 вопрос - изменяется в процесссе, но начальный и конечный результат - onResume()
-//3 вопрос - изменяется в процесссе, но начальный и конечный результат - onResume()
+//1.Будет ли вызван метод «onCreate» после нажатия на кнопку «Home» и возврата в приложение?
+//нет
+//2.Изменится ли значение поля «EditText» после нажатия на кнопку «Home» и возврата в приложение?
+//изменяется в процесссе на onPause(), но начальный и конечный результат - onResume()
+//3.Изменится ли значение поля «EditText» после нажатия на кнопку «Back» и возврата в приложение?
+//изменяется в процесссе на onPause(), но начальный и конечный результат - onResume()
 public class MainActivity extends AppCompatActivity {
 
     private EditText btnMirea;

@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
         shareIntent.putExtra(Intent.EXTRA_TEXT, "Брязгин Егор Игоревич");
         startActivity(Intent.createChooser(shareIntent, "Брязгин Егор Игоревич"));
 
-        //Uri address = Uri.parse("https://www.mirea.ru/");
-        //Intent openLinkIntent = new Intent(Intent.ACTION_VIEW, address);
-        // startActivity(openLinkIntent);
+
     }
 }

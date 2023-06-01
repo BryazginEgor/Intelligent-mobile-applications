@@ -35,6 +35,6 @@ public class MyTimeDialogFragment extends DialogFragment {
         timePickerDialog.setTitle("Choose hour:");
         timePickerDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         return timePickerDialog;
-        //   timePickerDialog.show();
+
     }
 }

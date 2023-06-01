@@ -14,9 +14,7 @@ import androidx.fragment.app.DialogFragment;
 import java.util.Calendar;
 
 public class MyDateDialogFragment extends DialogFragment  implements DatePickerDialog.OnDateSetListener{
-    public MyDateDialogFragment()
-    {
-    }
+
     TextView currentDateTime;
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
